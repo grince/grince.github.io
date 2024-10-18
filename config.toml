@@ -70,14 +70,14 @@ id = ""
 [[menu.main]]
     name       = "Tätigkeiten"
     identifier = "menu.taetigkeiten"
-    url        = "/img/template-easy-customize.png"
+    url        = "/unser-team/"
     weight     = 3
 
 [[menu.main]]
     name       = "Unser Team"
     identifier = "section.ourteam"
-    url        = ""
-    weight     = 1
+    url        = "unser.team"
+    weight     = 4
     parent     = "menu.features"
     post       = 1
 
