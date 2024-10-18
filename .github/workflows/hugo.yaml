@@ -34,6 +34,8 @@ jobs:
     env:
       # HUGO_VERSION: 0.134.2
       HUGO_VERSION: 0.136.0
+      ACTIONS_RUNNER_DEBUG: true
+      ACTIONS_STEPS_DEBUG: true
     steps:
       - name: Install Hugo CLI
         run: |
