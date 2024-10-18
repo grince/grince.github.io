@@ -2,7 +2,7 @@ baseurl = "https://hugo.wagner-hno.de" # Configure URL. if using gh-pages https:
 title = "Universal"
 name = "Dr. Ingo Wagner | Facharzt für HNO-Heilkunde"
 description = "Homepage der HNO-Praxis von Dr. Ingo Wagner"
-theme = [ "hugo-universal-theme" ]
+#theme = [ "hugo-universal-theme" ]
 languageCode = "de-de"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "de"
@@ -17,10 +17,9 @@ paginate = 10
 pluralizelisttitles = false
 
 [module]
-
-  [[module.imports]]
-    path = "github.com/devcows/hugo-universal-theme"
-    disable=false
+[[module.imports]]
+  path = "github.com/devcows/hugo-universal-theme"
+  disable=false
 
 [services]
 [services.disqus]
@@ -70,14 +69,14 @@ id = ""
     parent     = "menu.home"
 
 [[menu.main]]
-    name       = "Features"
-    identifier = "menu.features"
+    name       = "Tätigkeiten"
+    identifier = "menu.taetigkeiten"
     url        = "/img/template-easy-customize.png"
     weight     = 3
 
 [[menu.main]]
-    name       = "Shortcodes"
-    identifier = "section.shortcodes"
+    name       = "Unser Team"
+    identifier = "section.ourteam"
     url        = ""
     weight     = 1
     parent     = "menu.features"
@@ -482,9 +481,9 @@ id = ""
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+    text = """<p class="hidden-sm hidden-xs">Telefon: +49 228 oder info@wagner-hno.de</p>
+      <p class="hidden-md hidden-lg"><a href="tel:+49 228 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="mailto:info@wagner-hno.de" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
       """
 
