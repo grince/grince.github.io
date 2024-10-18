@@ -2,7 +2,6 @@ baseurl = "https://hugo.wagner-hno.de" # Configure URL. if using gh-pages https:
 title = "Universal"
 name = "Dr. Ingo Wagner | Facharzt für HNO-Heilkunde"
 description = "Homepage der HNO-Praxis von Dr. Ingo Wagner"
-#theme = [ "hugo-universal-theme" ]
 languageCode = "de-de"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "de"
